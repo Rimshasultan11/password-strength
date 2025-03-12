@@ -22,7 +22,7 @@ st.markdown("""
 
 st.title("🔐 Password Strength Checker")
 
-st.sidebar.image('./pic.png', width=300)
+st.sidebar.image('./pic.png')
 st.sidebar.markdown('<hr style="height: 1px; background-color: white; margin-top:0px"/>', unsafe_allow_html=True)
 st.sidebar.header("💪 Strong Password Criteria:👇")
 st.sidebar.markdown('<p class="sidebar-text">📏 Minimum 8 characters</p>', unsafe_allow_html=True)
